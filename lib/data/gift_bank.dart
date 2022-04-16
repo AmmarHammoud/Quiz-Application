@@ -1,25 +1,29 @@
-import 'dart:math';
 import 'package:flutter_app/models/gifts_model.dart';
 
-final g0 = MakingGifts('سنيكرز', 'خدلك سنيكرز، أنت مش أنت وأنت جعان', 'assets/images/snickers.jpg');
+final g0 = MakingGifts('سنيكرز', 'خدلك سنيكرز، أنت مش أنت وأنت جعان', 'assets/images/gifts/snickers.jpg');
 /* ---------------------------------------------------------------------------------------------- */
-final g1 = MakingGifts('كيت كات', 'خدلك بريك خدلك كيت كات', 'assets/images/kitkat.jpeg');
+final g1 = MakingGifts('كيت كات', 'خدلك بريك خدلك كيت كات', 'assets/images/gifts/kitkat.jpeg');
 /* ---------------------------------------------------------------------------------------------- */
-final g2 = MakingGifts('تويكس', 'وحدة الك والتانية الي', 'assets/images/twix.jpg');
+final g2 = MakingGifts('تويكس', 'وحدة الك والتانية الي', 'assets/images/gifts/twix.jpg');
 /* ---------------------------------------------------------------------------------------------- */
-final g3 = MakingGifts('إندومي', 'محبوب الجماهير', 'assets/images/indomie.jpg');
+final g3 = MakingGifts('إندومي', 'محبوب الجماهير', 'assets/images/gifts/indomie.jpg');
 /* ---------------------------------------------------------------------------------------------- */
-final g4 = MakingGifts('فاصلة منقوطة', 'بس طلاب المعلوماتية رح يعرفوا قيمة هالهدية ', 'assets/images/semecolon.jpg');
+final g4 = MakingGifts('فاصلة منقوطة', 'بس طلاب المعلوماتية رح يعرفوا قيمة هالهدية ', 'assets/images/gifts/semecolon.jpg');
 /* ---------------------------------------------------------------------------------------------- */
-final g5 = MakingGifts('قلم حمرة', 'قومي تمكيجيلو', 'assets/images/rouge.jpg');
+final g5 = MakingGifts('قلم حمرة', 'قومي تمكيجيلو', 'assets/images/gifts/rouge.jpg');
 /* ---------------------------------------------------------------------------------------------- */
-final g6 = MakingGifts('لوس باودر', 'ما بعرف شو المغزى بس بعتقد شي منيح', 'assets/images/luxury powder.jpeg');
+final g6 = MakingGifts('لوس باودر', 'ما بعرف شو المغزى بس بعتقد شي منيح', 'assets/images/gifts/luxury powder.jpeg');
 /* ---------------------------------------------------------------------------------------------- */
-final g7 = MakingGifts('مفتاح غاز', 'يمكنكم الاستعانة به في قتل الصراصير', 'assets/images/english key.jpg');
+final g7 = MakingGifts('مفتاح غاز', 'يمكنكم الاستعانة به في قتل الصراصير', 'assets/images/gifts/english key.jpg');
 /* ---------------------------------------------------------------------------------------------- */
-final g8 = MakingGifts('مقلاة', 'اقلوا بها المقالي', 'assets/images/meqlayah.jpg');
+final g8 = MakingGifts('مقلاة', 'اقلوا بها المقالي', 'assets/images/gifts/meqlayah.jpg');
 /* ---------------------------------------------------------------------------------------------- */
-final g9 = MakingGifts('علامة ستين', 'ربما يبدو رقمًا عاديًا، ولكن له قصة عظيمة', 'assets/images/sixty.jpg');
+final g9 = MakingGifts('علامة ستين', 'ربما يبدو رقمًا عاديًا، ولكن له قصة عظيمة', 'assets/images/gifts/sixty.jpg');
 /* ---------------------------------------------------------------------------------------------- */
-var gifts = [g0, g1, g2, g3, g4, g5, g6, g7, g8, g9];
+final g10 = MakingGifts('شاورما', 'لا أحد يستطيع مقاومتها', 'assets/images/gifts/shawrma.jpg');
+/* ---------------------------------------------------------------------------------------------- */
+final g11 = MakingGifts('ساعة نسائية', 'إذا ما كنت بنت، اهديها لبنت', 'assets/images/gifts/female watch.jpg');
+/* ---------------------------------------------------------------------------------------------- */
+final g12 = MakingGifts('بوظة', 'كلها بحذر لكيلا تمرض', 'assets/images/gifts/icecream.jpg');
+var gifts = [g0, g1, g2, g3, g4, g5, g6, g7, g8, g9, g10, g11, g12];
 

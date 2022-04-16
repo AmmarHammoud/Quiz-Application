@@ -19,6 +19,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+
   static Random randomFirstQuestion = new Random();
   ///Choose first question appears randomly.
   int currentQuestionIndex = randomFirstQuestion.nextInt(Q.length);
@@ -36,13 +37,13 @@ class _MyAppState extends State<MyApp> {
   ///And that is why [answers] is defined here.
   ///[randomAnswersList] is used for highlighting the correct answer when user chooses incorrect answer.
   bool isCalled = false;
-  List<String> answers;
-  List<String> randomAnswersList;
+  late List<String> answers;
+  late List<String> randomAnswersList;
 
   final audioPlayer = AssetsAudioPlayer();
 
   ///This funny video will be played when user makes a mistake at the question before last.
-  VideoPlayerController controller;
+  late VideoPlayerController controller;
 
   ///Playing video depending on [isNinety].
   bool isNinety = false;
@@ -141,7 +142,7 @@ class _MyAppState extends State<MyApp> {
           return Padding(
               padding: const EdgeInsets.all(15.0),
               child: CircleAvatar(
-                  backgroundImage: AssetImage('assets/images/gift.jpg'),
+                  backgroundImage: AssetImage('assets/images/gifts/gift.jpg'),
                   radius: 70));
         },
       );
